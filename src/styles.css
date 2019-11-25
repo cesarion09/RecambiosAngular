@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+select {
+    padding : 1em;
+    box-lines: 2px blue;
+    -webkit-user-select: none;    
+}
+select : hover {
+    padding : 0.9em;
+    box-lines: 3px yellow;
+    
+}
