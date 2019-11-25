@@ -4,7 +4,7 @@ select {
     box-lines: 2px blue;
     -webkit-user-select: none;    
 }
-select : hover {
+select :hover {
     padding : 0.9em;
     box-lines: 3px yellow;
     
