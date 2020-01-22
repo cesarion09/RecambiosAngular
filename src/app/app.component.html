@@ -1,4 +1,4 @@
-
+<link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
 
 
   <img
@@ -9,23 +9,28 @@
       <h3>Hola Motero</h3>
     </div>
 
- <nav class="navbar navbar-light bg-light">
+ <mat-toolbar color="primary">
    <a class="navbar-brand" href="#">Home</a>
    <a class="navbar-brand" href="#">recambios</a>
    <a class="navbar-brand" href="#">servicios</a>
    <a class="navbar-brand" href="#">Quienes Somos</a>
- </nav>
+ </mat-toolbar>
 
-<h3 class="seach">QUE ESTAS BUSCANDO</h3>
+<h3 class="seach">¿QUE ESTAS BUSCANDO?</h3>
 <h3>Busca un vehículo detallado</h3>
 
-<mat-select>Tipo
-  <mat-option>Motocicleta</mat-option>
-  <mat-option>Coche</mat-option>
-  <mat-option>camión</mat-option>
-  <mat-option>motores fuera de borda</mat-option>
-  <mat-option>Motores estacionarios</mat-option>
+<mat-form-field >
+<mat-label>Tipo</mat-label>
+<mat-select [(value)]="selectedValue">
+  <!-- <mat-option>None</mat-option>                                                                                                                                                                                                                                                                                                                                                                             </mat-option> -->
+  <mat-option value="Motocicleta">Motocicleta</mat-option>
+  <mat-option value="Coche">Coche</mat-option>
+  <mat-option value="Camión">Camión</mat-option>
+  <mat-option value="Mfb">Motores fuera de borda</mat-option>
+  <mat-option value="ME">Motores estacionarios</mat-option>
 </mat-select>
-     
+</mat-form-field>
+{{selectedValue}}
+
 
 <router-outlet></router-outlet>

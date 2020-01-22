@@ -1,46 +1,25 @@
 
-  :host {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 14px;
-    color: #333;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+.mat-toolbar {
+    justify-content: space-around;
+}
+a {
+            text-decoration: none;
+            color: rgb(58, 32, 155);
+            font-size: 1.5em;
+        }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 8px 0;
-  }
+h1 {
+    font-family: 'Bangers';
+    font-size: 2.5em;
+    
+}
 
-  p {
-    margin: 0;
-  }
+@media only screen and (max-width: 600px) {
 
-  .spacer {
-    flex: 1;
+    a{
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
   }
-
-  a {
-    color: rgb(7, 7, 48);
-    margin: 2em;
-    font-size: 1.5em;
-  }
- 
-  form {
-    background-image: url(../images/Motor-Motocicleta.jpg);
-    background-attachment: fixed;
-    height: 23em;
-  }
-  body {
-    background-color: #e8e8e8;
-  }
-  
-  #head {
-    background-color: #ba2f12;
-  }
-  

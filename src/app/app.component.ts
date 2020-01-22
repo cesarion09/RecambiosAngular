@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title:string = 'TODOMOTO MOTOPARTS';
+  selectedValue: string;
 
   employees = [
     {'name': 'Carlos', possition: 'manager' },
